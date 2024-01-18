@@ -7,7 +7,7 @@ const app = express();
 
 // CORS Configuration
 const corsOptions = {
-    origin: 'https://payment-stripe-pzy3.vercel.app/', // Replace with your actual frontend domain
+    origin: 'https://payment-stripe-pzy3.vercel.app', // Replace with your actual frontend domain
     methods: 'POST',
 };
 
